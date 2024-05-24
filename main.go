@@ -1,7 +1,7 @@
-//package main
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println("Hello wrold")
+	fmt.Println("Hello GO, My name is nitesh")
 }
