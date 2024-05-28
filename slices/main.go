@@ -50,4 +50,14 @@ func main() {
 
 	fmt.Println(sort.IntsAreSorted(highscores))
 
+	//Removing items from slices
+
+	var coures = []string{"apple", "ball", "cat", "dog"}
+
+	fmt.Println(coures)
+
+	coures = append(coures[:2], coures[3:]...)
+
+	fmt.Println(coures)
+
 }
