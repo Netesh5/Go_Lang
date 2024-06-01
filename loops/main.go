@@ -25,5 +25,5 @@ func main() {
 		fmt.Printf("Index : %v , Value : %v \n", index, val)
 	}
 
-	//When can also use the go to statement by using lco keyword
+	//When can also use the go to statement by using goto keyword
 }
