@@ -10,7 +10,7 @@ func main() {
 	encodeJson()
 }
 
-type course struct {
+type Course struct {
 	Name     string `json:"course_name"` //alias , if we use this kind of syntax then we can change the name in respone
 	Price    float64
 	Platform string
@@ -19,7 +19,7 @@ type course struct {
 }
 
 func encodeJson() {
-	courses := []course{
+	courses := []Course{
 		{"Go Lang", 355.99, "youtube", "test@123", []string{"Backend dev", "Go"}},
 		{"Go Lang", 355.99, "youtube", "test@1234", []string{"Backend dev", "Go"}},
 		{"Go Lang", 355.99, "youtube", "test@12345", []string{"Backend dev", "Go"}},
