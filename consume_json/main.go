@@ -44,4 +44,14 @@ func decodeJson() {
 	} else {
 		fmt.Println("Json is not valid ")
 	}
+
+	// Adding data to json data
+
+	var mapData map[string]interface{}
+	json.Unmarshal(jsonData, &mapData)
+	fmt.Printf("%#v\n", mapData)
+
+	for k, v := range mapData {
+		fmt.Printf("Key : %v\tValue : %v\n", k, v)
+	}
 }
